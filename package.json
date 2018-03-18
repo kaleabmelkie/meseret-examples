@@ -1,0 +1,8 @@
+{
+  "name": "meseret-examples",
+  "version": "0.0.0",
+  "description": "Applications to demonstrate meseret in action.",
+  "repository": "git@gitlab.com:kaleabmelkie/meseret-examples.git",
+  "license": "MIT",
+  "private": false
+}
