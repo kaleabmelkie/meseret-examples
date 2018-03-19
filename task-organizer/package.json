@@ -1,0 +1,20 @@
+{
+  "name": "task-organizer",
+  "version": "0.0.0",
+  "description": "Finally, tasks can be organized. Horray!",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc && prettier --no-semi --single-quote --write ./dist/**/*.js",
+    "develop": "nodemon",
+    "lint":
+      "prettier --no-semi --single-quote --write ./src/**/*.ts ./dist/**/*.js ./*.json",
+    "start": "node ."
+  },
+  "repository": "git@gitlab.com:kaleabmelkie/meseret-examples.git",
+  "author": "Kaleab Melkie <kaleabmelkie@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "meseret": "^1.7.1"
+  }
+}
