@@ -1,22 +1,22 @@
 import { ServerApp } from 'meseret'
 
-import { TasksModel } from './models/tasks.model'
-import { TaskRouter } from './routers/task.router'
+import { TaskModel } from './models/task/TaskModel'
+import { taskRouter } from './routers/taskRouter'
 
 const taskOrganizer = new ServerApp({
   name: 'Task Organizer',
 
-  models: [TasksModel],
+  models: [TaskModel],
   mongoUris: process.env.MONGO_URI || 'mongodb://localhost/task-organizer',
 
   httpServers: [
     {
-      path: process.env.SERVER_PATH || '127.0.0.1',
-      port: Number(process.env.SERVER_PORT) || 3000
+      hostname: process.env.HOSTNAME || undefined,
+      port: Number(process.env.PORT) || 3000
     }
   ],
 
-  routers: [TaskRouter]
+  routers: [taskRouter]
 })
 
 taskOrganizer
@@ -25,5 +25,3 @@ taskOrganizer
   .catch(err => console.error(`Launch problem: ${err}`))
 
 export { taskOrganizer }
-
-console.log(process.env)
