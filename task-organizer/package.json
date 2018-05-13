@@ -1,6 +1,6 @@
 {
   "name": "task-organizer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Finally, tasks can be organized. Horray!",
   "main": "dist/main.js",
   "scripts": {
