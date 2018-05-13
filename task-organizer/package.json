@@ -15,6 +15,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "meseret": "^1.7.6"
+    "meseret": "^1.7.7"
   }
 }

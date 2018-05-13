@@ -55,7 +55,7 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/gridfs-stream@^0.5.30":
+"@types/gridfs-stream@0.5.30":
   version "0.5.30"
   resolved "https://registry.yarnpkg.com/@types/gridfs-stream/-/gridfs-stream-0.5.30.tgz#665dea97398182505de019717fb6d2b63ce76259"
   dependencies:
@@ -74,51 +74,51 @@
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/@types/koa-compose/-/koa-compose-3.2.2.tgz#dc106e000bbf92a3ac900f756df47344887ee847"
 
-"@types/koa-compress@^2.0.8":
+"@types/koa-compress@2.0.8":
   version "2.0.8"
   resolved "https://registry.yarnpkg.com/@types/koa-compress/-/koa-compress-2.0.8.tgz#426a2fac419aff7d1a7d87fd78203bf0d26a94fb"
   dependencies:
     "@types/koa" "*"
     "@types/node" "*"
 
-"@types/koa-json@^2.0.18":
+"@types/koa-json@2.0.18":
   version "2.0.18"
   resolved "https://registry.yarnpkg.com/@types/koa-json/-/koa-json-2.0.18.tgz#1be8252bde478a774da42e0cd70aec83ca94a80a"
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-logger@^3.1.0":
+"@types/koa-logger@3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@types/koa-logger/-/koa-logger-3.1.0.tgz#133acdbc56d87b5a559cab25528b087381a8fc0d"
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-router@^7.0.27":
+"@types/koa-router@7.0.28":
   version "7.0.28"
   resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.0.28.tgz#67487c862a831099aed8864a8996bfa7e989edc0"
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-send@*", "@types/koa-send@^4.1.1":
+"@types/koa-send@*", "@types/koa-send@4.1.1":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@types/koa-send/-/koa-send-4.1.1.tgz#88f57cbe0343c8204903f9096d8ff6b98ec3296f"
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-session@^5.7.3":
+"@types/koa-session@5.7.3":
   version "5.7.3"
   resolved "https://registry.yarnpkg.com/@types/koa-session/-/koa-session-5.7.3.tgz#73d63ecde0c5327732a744486acf9a70b2edbd82"
   dependencies:
     "@types/koa" "*"
 
-"@types/koa-static@^4.0.0":
+"@types/koa-static@4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/koa-static/-/koa-static-4.0.0.tgz#4cddce6adf45221bacfb2842b3621dc92f4d642c"
   dependencies:
     "@types/koa" "*"
     "@types/koa-send" "*"
 
-"@types/koa@*", "@types/koa@^2.0.45":
+"@types/koa@*", "@types/koa@2.0.45":
   version "2.0.45"
   resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.45.tgz#133cbda6cc8d12b73434b5d9663898c833f80aa2"
   dependencies:
@@ -142,7 +142,7 @@
     "@types/events" "*"
     "@types/node" "*"
 
-"@types/mongoose@^5.0.10":
+"@types/mongoose@5.0.13":
   version "5.0.13"
   resolved "https://registry.yarnpkg.com/@types/mongoose/-/mongoose-5.0.13.tgz#5f9844588f63a9603f06a8a38eba82a99c3fea32"
   dependencies:
@@ -150,9 +150,9 @@
     "@types/mongodb" "*"
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^10.0.0":
-  version "10.0.6"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.0.6.tgz#c0bce8e539bf34c1b850c13ff46bead2fecc2e58"
+"@types/node@*", "@types/node@10.0.8":
+  version "10.0.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.0.8.tgz#37b4d91d4e958e4c2ba0be2b86e7ed4ff19b0858"
 
 "@types/serve-static@*":
   version "1.13.2"
@@ -161,7 +161,7 @@
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
 
-"@types/socket.io@^1.4.33":
+"@types/socket.io@1.4.33":
   version "1.4.33"
   resolved "https://registry.yarnpkg.com/@types/socket.io/-/socket.io-1.4.33.tgz#41e7e30e858b643519a139b8c93280390ccdff8d"
   dependencies:
@@ -280,7 +280,7 @@ async@2.1.4:
   dependencies:
     lodash "^4.14.0"
 
-atob@^2.0.0:
+atob@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.1.tgz#ae2d5a729477f289d60dd7f96a6314a22dd6c22a"
 
@@ -647,7 +647,7 @@ define-property@^2.0.2:
     is-descriptor "^1.0.2"
     isobject "^3.0.1"
 
-del-cli@^1.1.0:
+del-cli@1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/del-cli/-/del-cli-1.1.0.tgz#27557d69a0b7df99dcbaa1e34a09e6ac6591d2c4"
   dependencies:
@@ -959,7 +959,7 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-gridfs-stream@^1.1.1:
+gridfs-stream@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/gridfs-stream/-/gridfs-stream-1.1.1.tgz#3dd3a100ec2021a181282f6eb46709636074df89"
   dependencies:
@@ -1352,7 +1352,7 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.2.tgz#01146b36a6218e64e58f3a8d66de5d7fc6f6d051"
 
-koa-body@^2.5.0:
+koa-body@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/koa-body/-/koa-body-2.5.0.tgz#84e8fcd8d5229a8cc1cb98a926e939069e716915"
   dependencies:
@@ -1369,7 +1369,7 @@ koa-compose@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/koa-compose/-/koa-compose-4.0.0.tgz#2800a513d9c361ef0d63852b038e4f6f2d5a773c"
 
-koa-compress@^3.0.0:
+koa-compress@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/koa-compress/-/koa-compress-3.0.0.tgz#3194059c215cbc24e59bbc84c2c7453a4c88564f"
   dependencies:
@@ -1378,7 +1378,7 @@ koa-compress@^3.0.0:
     koa-is-json "^1.0.0"
     statuses "^1.0.0"
 
-koa-convert@^1.2.0:
+koa-convert@1.2.0, koa-convert@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/koa-convert/-/koa-convert-1.2.0.tgz#da40875df49de0539098d1700b50820cebcd21d0"
   dependencies:
@@ -1389,14 +1389,14 @@ koa-is-json@1, koa-is-json@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/koa-is-json/-/koa-is-json-1.0.0.tgz#273c07edcdcb8df6a2c1ab7d59ee76491451ec14"
 
-koa-json@^2.0.2:
+koa-json@2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/koa-json/-/koa-json-2.0.2.tgz#36af14e6ea1f5d646d7c44a285701c6f85a4fde4"
   dependencies:
     koa-is-json "1"
     streaming-json-stringify "3"
 
-koa-logger@^3.2.0:
+koa-logger@3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/koa-logger/-/koa-logger-3.2.0.tgz#8aef64d8b848fb6253a9b31aa708d0e05141f0e6"
   dependencies:
@@ -1405,7 +1405,7 @@ koa-logger@^3.2.0:
     humanize-number "0.0.2"
     passthrough-counter "^1.0.0"
 
-koa-router@^7.4.0:
+koa-router@7.4.0:
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/koa-router/-/koa-router-7.4.0.tgz#aee1f7adc02d5cb31d7d67465c9eacc825e8c5e0"
   dependencies:
@@ -1416,7 +1416,7 @@ koa-router@^7.4.0:
     path-to-regexp "^1.1.1"
     urijs "^1.19.0"
 
-koa-send@^4.1.0, koa-send@^4.1.3:
+koa-send@4.1.3, koa-send@^4.1.0:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/koa-send/-/koa-send-4.1.3.tgz#0822207bbf5253a414c8f1765ebc29fa41353cb6"
   dependencies:
@@ -1425,7 +1425,7 @@ koa-send@^4.1.0, koa-send@^4.1.3:
     mz "^2.6.0"
     resolve-path "^1.4.0"
 
-koa-session@^5.8.1:
+koa-session@5.8.1:
   version "5.8.1"
   resolved "https://registry.yarnpkg.com/koa-session/-/koa-session-5.8.1.tgz#f57b558a20e4da713cc2f96bfa67946bb4110548"
   dependencies:
@@ -1435,7 +1435,7 @@ koa-session@^5.8.1:
     pedding "^1.1.0"
     uid-safe "^2.1.3"
 
-koa-static-cache@^5.1.2:
+koa-static-cache@5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/koa-static-cache/-/koa-static-cache-5.1.2.tgz#49b592007157b164f5e9df5b276e305c8be5016a"
   dependencies:
@@ -1445,14 +1445,14 @@ koa-static-cache@^5.1.2:
     mime-types "^2.1.8"
     mz "^2.7.0"
 
-koa-static@^4.0.2:
+koa-static@4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/koa-static/-/koa-static-4.0.2.tgz#6cda92d88d771dcaad9f0d825cd94a631c861a1a"
   dependencies:
     debug "^2.6.8"
     koa-send "^4.1.0"
 
-koa@^2.5.1:
+koa@2.5.1:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/koa/-/koa-2.5.1.tgz#79f8b95f8d72d04fe9a58a8da5ebd6d341103f9c"
   dependencies:
@@ -1524,8 +1524,8 @@ lru-cache@^4.0.1:
     yallist "^2.1.2"
 
 make-dir@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.2.0.tgz#6d6a49eead4aae296c53bbf3a1a008bd6c89469b"
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/make-dir/-/make-dir-1.3.0.tgz#79c1033b80515bd6d24ec9933e860ca75ee27f0c"
   dependencies:
     pify "^3.0.0"
 
@@ -1566,40 +1566,40 @@ meow@^3.6.0:
     redent "^1.0.0"
     trim-newlines "^1.0.0"
 
-meseret@^1.7.6:
-  version "1.7.6"
-  resolved "https://registry.yarnpkg.com/meseret/-/meseret-1.7.6.tgz#9cf75079962b6a759f2fd5471808984d1f4bb6a8"
+meseret@^1.7.7:
+  version "1.7.7"
+  resolved "https://registry.yarnpkg.com/meseret/-/meseret-1.7.7.tgz#4613f30e4c10cef57fdd03678ee44cc4691517c6"
   dependencies:
-    "@types/gridfs-stream" "^0.5.30"
-    "@types/koa" "^2.0.45"
-    "@types/koa-compress" "^2.0.8"
-    "@types/koa-json" "^2.0.18"
-    "@types/koa-logger" "^3.1.0"
-    "@types/koa-router" "^7.0.27"
-    "@types/koa-send" "^4.1.1"
-    "@types/koa-session" "^5.7.3"
-    "@types/koa-static" "^4.0.0"
-    "@types/mongoose" "^5.0.10"
-    "@types/node" "^10.0.0"
-    "@types/socket.io" "^1.4.33"
-    del-cli "^1.1.0"
-    gridfs-stream "^1.1.1"
-    koa "^2.5.1"
-    koa-body "^2.5.0"
-    koa-compress "^3.0.0"
-    koa-convert "^1.2.0"
-    koa-json "^2.0.2"
-    koa-logger "^3.2.0"
-    koa-router "^7.4.0"
-    koa-send "^4.1.3"
-    koa-session "^5.8.1"
-    koa-static "^4.0.2"
-    koa-static-cache "^5.1.2"
-    mongoose "^5.0.16"
-    nodemon "^1.17.3"
-    prettier "^1.12.1"
-    socket.io "^2.1.0"
-    typescript "^2.8.3"
+    "@types/gridfs-stream" "0.5.30"
+    "@types/koa" "2.0.45"
+    "@types/koa-compress" "2.0.8"
+    "@types/koa-json" "2.0.18"
+    "@types/koa-logger" "3.1.0"
+    "@types/koa-router" "7.0.28"
+    "@types/koa-send" "4.1.1"
+    "@types/koa-session" "5.7.3"
+    "@types/koa-static" "4.0.0"
+    "@types/mongoose" "5.0.13"
+    "@types/node" "10.0.8"
+    "@types/socket.io" "1.4.33"
+    del-cli "1.1.0"
+    gridfs-stream "1.1.1"
+    koa "2.5.1"
+    koa-body "2.5.0"
+    koa-compress "3.0.0"
+    koa-convert "1.2.0"
+    koa-json "2.0.2"
+    koa-logger "3.2.0"
+    koa-router "7.4.0"
+    koa-send "4.1.3"
+    koa-session "5.8.1"
+    koa-static "4.0.2"
+    koa-static-cache "5.1.2"
+    mongoose "5.1.0"
+    nodemon "1.17.4"
+    prettier "1.12.1"
+    socket.io "2.1.0"
+    typescript "2.8.3"
 
 methods@^1.0.1:
   version "1.1.2"
@@ -1690,9 +1690,9 @@ mongoose-legacy-pluralize@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
 
-mongoose@^5.0.16:
-  version "5.0.18"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.0.18.tgz#2d04c70f0800959b4c8180e5e70db13bc18d3826"
+mongoose@5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.1.0.tgz#5002b9e4af8ea3f131b443756a01c979d22decb3"
   dependencies:
     async "2.1.4"
     bson "~1.0.5"
@@ -1779,7 +1779,7 @@ node-pre-gyp@^0.9.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemon@^1.17.3:
+nodemon@1.17.4:
   version "1.17.4"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.17.4.tgz#243ff9c69ffbf1175f2460f9b023f35a072c15e9"
   dependencies:
@@ -2030,7 +2030,7 @@ prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
 
-prettier@^1.12.1:
+prettier@1.12.1:
   version "1.12.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.12.1.tgz#c1ad20e803e7749faf905a409d2367e06bbe7325"
 
@@ -2335,7 +2335,7 @@ socket.io-parser@~3.2.0:
     debug "~3.1.0"
     isarray "2.0.1"
 
-socket.io@^2.1.0:
+socket.io@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-2.1.0.tgz#de77161795b6303e7aefc982ea04acb0cec17395"
   dependencies:
@@ -2347,10 +2347,10 @@ socket.io@^2.1.0:
     socket.io-parser "~3.2.0"
 
 source-map-resolve@^0.5.0:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.1.tgz#7ad0f593f2281598e854df80f19aae4b92d7a11a"
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.2.tgz#72e2cc34095543e43b2c62b2c4c10d4a9054f259"
   dependencies:
-    atob "^2.0.0"
+    atob "^2.1.1"
     decode-uri-component "^0.2.0"
     resolve-url "^0.2.1"
     source-map-url "^0.4.0"
@@ -2566,7 +2566,7 @@ type-is@^1.5.5, type-is@^1.6.14:
     media-typer "0.3.0"
     mime-types "~2.1.18"
 
-typescript@^2.8.3:
+typescript@2.8.3:
   version "2.8.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.8.3.tgz#5d817f9b6f31bb871835f4edf0089f21abe6c170"
 
