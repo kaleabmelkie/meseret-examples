@@ -11,7 +11,7 @@ const taskOrganizer = new ServerApp({
 
   httpServers: [
     {
-      hostname: process.env.HOSTNAME || undefined,
+      hostname: process.env.HOSTNAME || 'localhost',
       port: Number(process.env.PORT) || 3000
     }
   ],
