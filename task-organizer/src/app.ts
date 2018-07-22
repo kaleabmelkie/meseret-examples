@@ -1,4 +1,4 @@
-import { ServerApp } from 'meseret'
+import { ServerApp } from 'meseret/lib'
 
 import { TaskModel } from './models/task/TaskModel'
 import { taskRouter } from './routers/taskRouter'

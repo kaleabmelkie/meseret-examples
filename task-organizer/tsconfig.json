@@ -1,17 +1,37 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "lib": ["es2017"],
-    "outDir": "./dist/",
     "rootDir": "./src/",
-    "strict": true,
-    "noImplicitAny": false,
+    "outDir": "./dist/",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "sourceRoot": "./",
-    "inlineSourceMap": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+
+    "pretty": true,
+    "lib": ["es2018"],
+    "target": "es5",
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "noEmitOnError": true,
+
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "skipLibCheck": true,
+
+    "alwaysStrict": true,
+    "preserveConstEnums": true,
+    "newLine": "lf"
   },
-  "exclude": []
+
+  "files": [
+    "./src/app.ts"
+  ],
+  "include": [
+    "./src/**/*.ts"
+  ]
 }

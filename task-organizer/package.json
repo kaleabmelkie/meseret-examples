@@ -2,19 +2,21 @@
   "name": "task-organizer",
   "version": "0.1.0",
   "description": "Finally, tasks can be organized. Horray!",
-  "main": "dist/main.js",
+  "main": "dist/app.js",
+  "typings": "dist/app.d.ts",
   "scripts": {
-    "start": "yarn build & node .",
-    "build": "tsc && yarn lint",
-    "lint": "prettier --write ./src/**/*.ts ./*.{json,md}",
-    "watch": "tsc -w",
-    "develop": "nodemon"
+    "clean": "node_modules/.bin/del dist",
+    "build": "yarn clean && tsc",
+    "watch": "yarn clean && tsc -w",
+    "lint": "prettier --write src/**/*.ts",
+    "develop": "nodemon",
+    "start": "node ."
   },
   "repository": "git@gitlab.com:kaleabmelkie/meseret-examples.git",
   "author": "Kaleab Melkie <kaleabmelkie@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "meseret": "^1.7.7"
+    "meseret": "^1.7.8"
   }
 }
