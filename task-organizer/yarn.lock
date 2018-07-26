@@ -1604,7 +1604,7 @@ meow@^3.6.0:
     redent "^1.0.0"
     trim-newlines "^1.0.0"
 
-meseret@^1.7.8:
+meseret@latest:
   version "1.7.8"
   resolved "https://registry.yarnpkg.com/meseret/-/meseret-1.7.8.tgz#a017b7601bb304dbb065e439765e6fbd90308139"
   dependencies:

@@ -26,12 +26,5 @@
     "alwaysStrict": true,
     "preserveConstEnums": true,
     "newLine": "lf"
-  },
-
-  "files": [
-    "./src/app.ts"
-  ],
-  "include": [
-    "./src/**/*.ts"
-  ]
+  }
 }

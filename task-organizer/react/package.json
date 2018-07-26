@@ -1,0 +1,12 @@
+{
+  "name": "project-cc-react",
+  "version": "0.0.0",
+  "scripts": {
+    "clean": "echo n/a",
+    "build": "echo n/a",
+    "lint": "echo n/a"
+  },
+  "author": "Kelal",
+  "license": "UNLICENSED",
+  "private": true
+}

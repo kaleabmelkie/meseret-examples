@@ -1,4 +1,4 @@
-import { ModelFactory, FunctionsType } from 'meseret'
+import { ModelFactory } from 'meseret'
 
 import { taskPaths } from './taskPaths'
 import { taskMethods } from './taskMethods'
@@ -8,11 +8,7 @@ export interface ITasks {
   done?: boolean
 }
 
-export interface ITaskMethods extends FunctionsType {
-  tickToggle: () => Promise<any>
-}
-
-export const taskModelFactory = new ModelFactory<ITasks, ITaskMethods>({
+export const taskModelFactory = new ModelFactory<ITasks, typeof taskMethods>({
   name: 'tasks',
   paths: taskPaths,
   methods: taskMethods

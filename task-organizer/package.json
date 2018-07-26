@@ -5,18 +5,28 @@
   "main": "dist/app.js",
   "typings": "dist/app.d.ts",
   "scripts": {
-    "clean": "node_modules/.bin/del dist",
-    "build": "yarn clean && tsc",
-    "watch": "yarn clean && tsc -w",
-    "lint": "prettier --write src/**/*.ts",
-    "develop": "nodemon",
-    "start": "node ."
+    "postinstall": "yarn install:react & yarn prod",
+    "install:react": "cd react & yarn install",
+    "prod": "set NODE_ENV=production& yarn lint & yarn build",
+    "build": "yarn build:src & yarn build:react",
+    "build:src": "yarn clean:dist & tsc",
+    "build:react": "yarn clean:react & cd react & yarn build",
+    "clean": "yarn clean:dist & yarn clean:react",
+    "clean:dist": "node_modules/.bin/del dist",
+    "clean:react": "node_modules/.bin/del react/build",
+    "lint": "yarn lint:src & yarn lint:react",
+    "lint:src": "prettier --write src/**/*.{ts,js,json,md} *.{ts,js,json,md}",
+    "lint:react": "cd react & yarn lint",
+    "watch": "yarn clean:dist & tsc -w",
+    "dev": "nodemon -w dist",
+    "react": "cd react & yarn start",
+    "start": "set NODE_ENV=production& node ."
   },
   "repository": "git@gitlab.com:kaleabmelkie/meseret-examples.git",
   "author": "Kaleab Melkie <kaleabmelkie@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "meseret": "^1.7.8"
+    "meseret": "latest"
   }
 }
