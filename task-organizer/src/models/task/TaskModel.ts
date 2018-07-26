@@ -14,4 +14,6 @@ export const taskModelFactory = new ModelFactory<ITasks, typeof taskMethods>({
   methods: taskMethods
 })
 
+taskModelFactory.schema.index({ '$**': 'text' })
+
 export const TaskModel = taskModelFactory.model
