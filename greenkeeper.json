@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "task-organizer/android/package.json",
+        "task-organizer/package.json",
+        "task-organizer/react/package.json"
+      ]
+    }
+  }
+}
