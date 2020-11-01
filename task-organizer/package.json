@@ -27,6 +27,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "meseret": "latest"
+    "meseret": "1.9.2"
   }
 }
